@@ -73,6 +73,31 @@ a:focus {
 	list-style-type: none;
 	background-color: #000000;
 	background-color: rgba(0,0,0,0.65);
+	position: absolute;
+	-webkit-transition: all ease-out 0.5s;
+	transition: all ease-out 0.5s;
+}
+#navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
+	color: #268ECF;
+}
+#navlinks.displayed {
+	z-index: 1;
+}
+#navlinks.start {
+	display: none;
+}
+#navlinks.collapsed {
+	top: -12 em;
+	opacity: 0;
+}
+#navlinks a {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 main {
 	margin-left: 4%;
@@ -131,4 +156,6 @@ footer {
     color: white;
     font-size: 0.8em;
     text-align: center;
+}
+.thispage {
 }
