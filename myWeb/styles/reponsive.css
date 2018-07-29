@@ -164,6 +164,10 @@ footer {
 }
 .thispage {
 }
+#hero {
+	position: relative;
+	top: auto;
+}
 
 @media (min-width: 700px){
 #menulink {
@@ -173,6 +177,8 @@ footer {
 	max-width: 1000px;
 	position: static;
 	background-color: transparent;
+	margin-top: 0px;
+	padding-bottom: 60px;
 }
 #navlinks.collapsed {
 	opacity: 1;
@@ -215,6 +221,11 @@ footer {
 	clear: left;
 }
 #hero {
+	padding: 0;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
 	position: relative;
 }
 }
