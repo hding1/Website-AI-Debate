@@ -168,6 +168,41 @@ footer {
 	position: relative;
 	top: auto;
 }
+#wrapper article {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+#wrapper article p {
+	line-height: 200%;
+	display: block;
+}
+#wrapper article h2 {
+	margin-top: 1em;
+}
+article address a {
+	display: inline-block;
+	font-style: italic;
+}
+article p img {
+	max-width: 40%;
+	display: block;
+}
+#wrapper posters figure {
+	display: block;
+	align-content: center;
+	width: 50
+%;
+	width: 50%;
+	max-width: 50%;
+}
+#wrapper posters p {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+posters figure figcaption {
+	font-size: 12px;
+	text-transform: none;
+}
 
 @media (min-width: 700px){
 #menulink {
@@ -227,5 +262,12 @@ footer {
 	margin-left: 0px;
 	margin-bottom: 0px;
 	position: relative;
+}
+article p img {
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 50%;
 }
 }
