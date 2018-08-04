@@ -1,0 +1,12 @@
+Get Started
+
+1. Extract myWeb.zip
+2. Enter myWeb folder
+3a. readme.text for direction
+3b. click index.html or just start with any html file to start explore our website!
+
+If the compressed file is not working,
+visit my github page at: https://github.com/hding1/Website-AI-Debate
+to download files
+
+Thank you for a great quarter!
